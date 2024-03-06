@@ -8,4 +8,4 @@ bootstrapApplication(AppComponent, {
     providers: [provideStore({
         counter: counterReducer
     })]
-});
+}).then();
